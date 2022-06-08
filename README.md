@@ -1,0 +1,2 @@
+# InterviewWZL
+Exercise for WZL
