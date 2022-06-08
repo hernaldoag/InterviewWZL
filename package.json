@@ -1,0 +1,17 @@
+{
+  "name": "interview",
+  "version": "1.0.0",
+  "description": "testcafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome ./tests"
+  },
+  "keywords": [
+    "tescafe"
+  ],
+  "author": "hernaldo",
+  "license": "ISC",
+  "devDependencies": {
+    "testcafe": "^1.19.0"
+  }
+}
