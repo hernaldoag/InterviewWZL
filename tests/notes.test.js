@@ -10,7 +10,7 @@ test('Test Login - Fixed', async t => {
     await t.
     click(WelcomePage.WelcomeLogin)
     .typeText(LoginPage.username, "testuser@example.com", {paste:true})
-    .typeText(LoginPage.password, "Test123", {paste:true})
+    .typeText(LoginPage.password, "test123", {paste:true})
     .click(LoginPage.loginButton)
 
     await t.expect(MyNotesLandingPage.simpleNote.exists).ok
